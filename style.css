@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.w-1280{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*----------------Section Web-hosting----------------*/
+.web-hosting{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F8FD;
+}
+/*---------Header------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 120px 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 42px;
+}
+nav button{
+    display: inline-flex;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #03045E;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*------------------------*/
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex h2{
+    width: 556px;
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 141.667% */
+}
+.flex p{
+    width: 556px;
+    color: rgba(3, 4, 94, 0.50);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 36px 0;
+}
+.flex button{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 17px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #0098FF;
+    border: none;
+}
+.flex img{
+    padding-left: 100px;
+}
+
+/*--------------------Section Search---------------------*/
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+    gap: 70px;
+}
+.search h3{
+    width: 381px;
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 36px;
+}
+.search input{
+    width: 450px;
+    height: 24px;
+    flex-shrink: 0;
+    opacity: 0.5;
+}
+.search-flex{
+    width: 625px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*gap: 10px;*/
+    border-radius: 5px;
+    background: #F6F6F6;
+    /*padding-right: 69px;*/
+}
+.search input{
+    padding: 18px 20px;
+    border: none;
+    background-color: #F6F6F6;
+}
+.search button{
+    display: inline-flex;
+    padding: 15px 38px 18px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 5px 5px 0;
+    background-color: #0098FF;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    /*width: 159px;*/
+    /*height: 60px;*/
+}
+.search-your-domain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    border-left: 3px solid #F6F6F6;
+    padding-left: 70px;
+}
+.search-your-domain h5 {
+    width: 79px;
+    color: #0098FF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 120px;
+    margin-bottom: 7px;
+}
+.search-your-domain span{
+    width: 95px;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*------------------Section Our Services---------------------*/
+.our-services h2{
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 150px 0 60px 0;
+    margin-left: 500px;
+}
+.services-block-1, .services-block-2{
+    display: flex;
+    gap: 30px;
+}
+.services-block-1>div, .services-block-2>div{
+    width: 406px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.services-block-1 div>div, .services-block-2 div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    width: 100px;
+    height: 100px;
+}
+.services-block-1 div>h5, .services-block-2 div>h5{
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px 0;
+}
+.services-block-1 div>p, .services-block-2 div>p{
+    width: 407px;
+    color: #03045E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding-bottom: 80px;
+}
+.services-block-1{
+    margin-bottom: 80px;
+}
+.services-block-2{
+    margin-bottom: 150px;
+}
+
+/*---------------------Section Word From Our Clients----------------------*/
+.word-from-clients h2{
+    /*width: 435px;*/
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 150px 0 110px 420px;
+}
+.from-clients{
+    display: flex;
+    justify-content: space-between;
+}
+.from-clients p:first-of-type{
+    width: 327px;
+    color: #03045E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+.from-clients h5{
+    width: 120px;
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px 0 8px 0;
+}
+.from-clients p:last-of-type{
+    width: 407px;
+    color: #03045E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+.from-clients div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.from-clients+img{
+    margin-left: 590px;
+    padding: 40px 0 150px 0;
+}
+
+/*-------------------Section Blue----------------------*/
+.blue{
+    background-color: #0098FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue p:first-of-type{
+    color: #FFFFFF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.blue p:last-of-type{
+    width: 297px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 15px;
+}
+.blue div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+/*-----------------Section Our Flexible Plan--------------------*/
+.flexible-plan h2{
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 150px 0 60px 480px;
+}
+.plan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.plan h6{
+    color: #0098FF;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px 0 16px 0;
+}
+.plan h3{
+    color: #03045E;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+.plan p{
+    border-bottom: 1px solid #dfdfdf;
+}
+.plan button{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #03045E;
+    border: none;
+    margin: 50px 0;
+}
+.box span{
+    color: #03045E;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.box p{
+    opacity: 0.5;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 0;
+    width: 318px;
+    text-align: center;
+}
+.flexible-plan .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-blue{
+    background-color: #0098FF;
+}
+.box-blue h6{
+    color: #FFFFFF;
+}
+.box-blue h3{
+    color: #FFFFFF;
+}
+.box-blue span{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.box-blue p{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 0;
+    width: 318px;
+    text-align: center;
+}
+.box-blue button{
+    margin-left: 84px;
+}
+
+/*---------------------Footer----------------------*/
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 130px;
+    padding: 100px 0;
+    margin-left: -50px;
+}
+.content div{
+    padding-right: 30px;
+}
+.content p{
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding-top: 24px;
+}
+.content h6{
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.content:last-of-type div p{
+    padding-bottom: 30px;
+}
+.top{
+    padding: 30px 0 24px 0;
+}
+.content .frame{
+    display: flex;
+    gap: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+}
+.copyright  p{
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
